@@ -34,6 +34,16 @@ Twitter: <a href="https://twitter.com/{{ .twitter }}" target="_blank"> @{{ .twit
 {{ end }}
 {{ end }}
 
+
+{{ if eq .session_type "Package demo" }}
+{{ if not (eq .details "") }}
+<br>
+<br>
+<a style="font-weight:bold;font-size:24px" href="{{ .details }}" target="_blank" title={{ .details }}>Package demo details</a>
+{{ end }}
+{{ end }}
+
+
 {{ if eq .orchestra "yes" }}
 <br>
 <h3> Orchestra </h3>
