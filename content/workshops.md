@@ -1,9 +1,9 @@
 +++
-title = "Workshops"
-description = "Workshops"
+title = "Workshops & package demos"
+description = "Workshops & package demos"
 +++
 
-## Workshops on orchestra
+## 0n orchestra
 
 1. Go to <a href="http://app.orchestra.cancerdatasci.org" target="_blank" >Orchestra</a>.
 2. Log in.
@@ -11,7 +11,7 @@ description = "Workshops"
 4. Click "Launch" (may take a minute or two).
 5. Follow instructions.
 
-## All workshops by level
+## All workshops and demos by level
 
 {{< workshops level="Beginner" >}}
 
