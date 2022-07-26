@@ -62,10 +62,10 @@ paginate = 50
 
 [[menu.main]]
     identifier="registration"
-    parent = "about"
+#    parent = "about"
     name = "Registration"
     url  = "/registration/"
-    weight = 40
+    weight = 55
 
 #[[menu.main]]
 #    identifier="workshops"
