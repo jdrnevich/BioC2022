@@ -32,6 +32,12 @@ Twitter: <a href="https://twitter.com/{{ .twitter }}" target="_blank"> @{{ .twit
 <br>
 <a style="font-weight:bold;font-size:24px" href="{{ .details }}" target="_blank" title={{ .details }}>Workshop details</a>
 {{ end }}
+
+{{ if not (eq .github "") }}
+<br>
+<br>
+<a style="font-weight:bold;font-size:24px" href="{{ .github }}" target="_blank" title={{ .github }}>Source code</a>
+{{ end }}
 {{ end }}
 
 
@@ -41,6 +47,12 @@ Twitter: <a href="https://twitter.com/{{ .twitter }}" target="_blank"> @{{ .twit
 <br>
 <a style="font-weight:bold;font-size:24px" href="{{ .details }}" target="_blank" title={{ .details }}>Package demo details</a>
 {{ end }}
+{{ if not (eq .github "") }}
+<br>
+<br>
+<a style="font-weight:bold;font-size:24px" href="{{ .github }}" target="_blank" title={{ .github }}>Source code</a>
+{{ end }}
+
 {{ end }}
 
 
